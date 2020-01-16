@@ -1,10 +1,9 @@
 /* sect1 styles */
-
 .sect1 {
     background-color: $bgc_white;
 }
 
-.sect1-left{
+.sect1-left {
     padding: 20px;
     width: 50%;
 
@@ -19,7 +18,7 @@
     }
 }
 
-.sect1-right{
+.sect1-right {
     padding: 20px;
     width: 50%;
 
@@ -28,14 +27,14 @@
     }
 }
 
-.sect-buttons{
+.sect-buttons {
+    span {
+        margin: 0 20px;
+    }
 
-    span{ margin: 0 20px;}
-
-    button img{
+    button img {
         margin-right: 5px;
         vertical-align: middle;
     }
 }
-
 /* fine sect1 styles */

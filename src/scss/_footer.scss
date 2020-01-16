@@ -1,20 +1,22 @@
 /* footer styles */
+
 footer {
     background-color: $bgc_white;
 
     h4 {
         font-size: $normal_text;
-        margin-bottom: 10px;}
+        margin-bottom: 10px;
+    }
 
     ul li {
         padding: 10px 0;
-        }
+    }
 
-    .footer-list{
+    .footer-list {
         width: 13%;
     }
 
-    #footer-text{
+    #footer-text {
         width: 35%;
         max-width: 370px;
 
@@ -23,19 +25,20 @@ footer {
             float: left;
         }
 
-        h4{
+        h4 {
             max-width: 260px;
             margin: 0 30px;
             // padding-right:
-            float: left;}
-
-        a{
-            color:$light_blue;
-
-            &:hover {text-decoration: underline;}
+            float: left;
         }
 
+        a {
+            color: $light_blue;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
 }
-
 /* fine footer styles */

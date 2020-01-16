@@ -6,9 +6,8 @@
     h2 {
         font-size: $very_big_text;
         max-width: 628px;
-        margin: 0 auto;
-        margin-bottom: 30px;
-        }
+        margin: 0 auto 30px;
+    }
 
     #sect4-text {
         position: relative;
@@ -23,22 +22,21 @@
             width: 38px;
         }
 
-        #sect4-block-quote{
+        #sect4-block-quote {
             position: absolute;
             top: -20px;
-            left:0;
+            left: 0;
         }
     }
 
-    #sect4-buttons{
+    #sect4-buttons {
         max-width: 628px;
-        margin: 0 auto;
-        margin-top: 30px;
+        margin: 30px auto 0;
 
         .sect-buttons {
             text-align: center;
 
-            button img{
+            button img {
                 margin-right: 5px;
                 vertical-align: middle;
             }
@@ -46,18 +44,17 @@
 
         a {
             display: block;
-            text-align: center;}
-
+            text-align: center;
+        }
     }
 
-
-    #sect4-signature{
+    #sect4-signature {
         display: inline-block;
         margin-left: 10px;
 
-        span {color: $light_blue;}
+        span {
+            color: $light_blue;
+        }
     }
 }
-
-
 /* fine sect4 styles */
