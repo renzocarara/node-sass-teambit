@@ -17,11 +17,12 @@ a {
     &:visited{
         color: inherit;
     }
+
+    &:hover{
+        color: $dark_blue;
+    }
 }
 
-a:hover{
-    color: $dark_blue;
-}
 
 ul {
     list-style-type: none;
@@ -34,15 +35,10 @@ ul {
     clear: both;
 }
 
-// .hidden {
-//     display:none;
-// }
-
 .container {
     max-width: 1150px;
     margin: 0 auto;
 }
-
 
 .flex-row-centered{
     display:flex;
@@ -59,7 +55,6 @@ ul {
     display:flex;
     justify-content: space-between;
 }
-
 
 .base-button {
     border-style: none;

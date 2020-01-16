@@ -116,6 +116,11 @@ header {
   margin-top: 20px;
 }
 
+#nav-menu-container button img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
 #nav-menu-container .header-button {
   float: right;
   color: #233569;
@@ -202,6 +207,11 @@ header {
 
 .sect-buttons span {
   margin: 0 20px;
+}
+
+.sect-buttons button img {
+  margin-right: 5px;
+  vertical-align: middle;
 }
 
 /* fine sect1 styles */
@@ -335,6 +345,10 @@ header {
   margin: 0 auto;
 }
 
+.sect4 #sect4-text img {
+  width: 38px;
+}
+
 .sect4 #sect4-buttons {
   max-width: 628px;
   margin: 0 auto;
@@ -345,13 +359,14 @@ header {
   text-align: center;
 }
 
+.sect4 #sect4-buttons .sect-buttons button img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
 .sect4 #sect4-buttons a {
   display: block;
   text-align: center;
-}
-
-.sect4 img {
-  width: 38px;
 }
 
 .sect4 #sect4-signature {

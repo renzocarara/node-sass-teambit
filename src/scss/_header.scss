@@ -13,6 +13,11 @@ header{
     float: right;
     margin-top: 20px;
 
+    button img{
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+
     .header-button {
         @extend .base-button;
         float: right;
