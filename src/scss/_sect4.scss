@@ -11,15 +11,22 @@
         }
 
     #sect4-text {
+        position: relative;
         max-width: 628px;
         padding: 30px;
         background-color: $bgc-white;
         border-radius: 5px;
         border: 1px solid lightgray;
         margin: 0 auto;
-        
+
         img {
             width: 38px;
+        }
+
+        #sect4-block-quote{
+            position: absolute;
+            top: -20px;
+            left:0;
         }
     }
 

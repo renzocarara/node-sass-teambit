@@ -337,6 +337,7 @@ header {
 }
 
 .sect4 #sect4-text {
+  position: relative;
   max-width: 628px;
   padding: 30px;
   background-color: white;
@@ -347,6 +348,12 @@ header {
 
 .sect4 #sect4-text img {
   width: 38px;
+}
+
+.sect4 #sect4-text #sect4-block-quote {
+  position: absolute;
+  top: -20px;
+  left: 0;
 }
 
 .sect4 #sect4-buttons {
