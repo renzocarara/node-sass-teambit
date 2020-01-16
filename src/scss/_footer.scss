@@ -1,0 +1,41 @@
+/* footer styles */
+footer {
+    background-color: $bgc_white;
+
+    h4 {
+        font-size: $normal_text;
+        margin-bottom: 10px;}
+
+    ul li {
+        padding: 10px 0;
+        }
+
+    .footer-list{
+        width: 13%;
+    }
+
+    #footer-text{
+        width: 35%;
+        max-width: 370px;
+
+        img {
+            width: 50px;
+            float: left;
+        }
+
+        h4{
+            max-width: 260px;
+            margin: 0 30px;
+            // padding-right:
+            float: left;}
+
+        a{
+            color:$light_blue;
+
+            &:hover {text-decoration: underline;}
+        }
+
+    }
+}
+
+/* fine footer styles */

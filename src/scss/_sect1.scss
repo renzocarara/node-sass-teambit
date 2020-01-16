@@ -1,0 +1,36 @@
+/* sect1 styles */
+
+.sect1 {
+    background-color: $bgc_white;
+}
+
+.sect1-left{
+    padding: 20px;
+    width: 50%;
+
+    h1 {
+        font-size: $biggest_text;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: $medium_text;
+        margin-bottom: 30px;
+    }
+}
+
+.sect1-right{
+    padding: 20px;
+    width: 50%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.sect-buttons{
+
+    span{ margin: 0 20px;}
+}
+
+/* fine sect1 styles */

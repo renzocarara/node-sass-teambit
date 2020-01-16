@@ -1,0 +1,50 @@
+/* sect4 styles */
+
+.sect4 {
+    background-color: $bgc_beige;
+
+    h2 {
+        font-size: $very_big_text;
+        max-width: 628px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        }
+
+    #sect4-text {
+        max-width: 628px;
+        padding: 30px;
+        background-color: $bgc-white;
+        border-radius: 5px;
+        border: 1px solid lightgray;
+        margin: 0 auto;
+    }
+
+    #sect4-buttons{
+        max-width: 628px;
+        margin: 0 auto;
+        margin-top: 30px;
+
+        .sect-buttons {
+            text-align: center;
+        }
+
+        a {
+            display: block;
+            text-align: center;}
+
+    }
+
+    img {
+        width: 38px;
+    }
+
+    #sect4-signature{
+        display: inline-block;
+        margin-left: 10px;
+
+        span {color: $light_blue;}
+    }
+}
+
+
+/* fine sect4 styles */

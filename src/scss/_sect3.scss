@@ -1,0 +1,51 @@
+/* sect3 styles */
+
+.sect3 {
+    background-color: $bgc_white;
+
+    h3 {font-size: $big_text;}
+
+    p {font-size: $medium_text;}
+
+    .sect3-line{
+
+        margin-bottom: 100px;
+
+        .sect3-block{
+            width: 50%;
+            h3, p {margin-bottom: 25px;}
+
+            a {
+                color: $dark_blue;
+            }
+        }
+
+        .sect3-small{
+            max-width: 420px;
+        }
+
+        .sect3-block-left{
+            float: right;
+            margin: 0 30px;
+        }
+
+
+        .sect3-block-right{
+            margin: 0 30px;
+
+
+
+            a {font-size: $medium_text;}
+
+        }
+
+        .sect3-small-img {
+            max-width: 270px;
+
+        }
+        .sect3-large-img {
+            max-width: 768px;}
+    }
+
+}
+/* fine sect3 styles */

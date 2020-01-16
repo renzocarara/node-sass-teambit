@@ -1,0 +1,82 @@
+/* commom styles */
+
+body{
+    font-family: 'Arial', sans-serif;
+    color: $text_color;
+    background-color: $bgc_white;
+}
+
+section, footer{
+    padding: $section_padding;
+}
+
+a {
+
+    text-decoration: none;
+
+    &:visited{
+        color: inherit;
+    }
+}
+
+a:hover{
+    color: $dark_blue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+// .hidden {
+//     display:none;
+// }
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+
+.flex-row-centered{
+    display:flex;
+    justify-content: center;
+}
+
+.flex-column-centered {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-column-between{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.base-button {
+    border-style: none;
+    font-size: $small_text;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: $light_blue;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $dark_blue;
+    }
+}
+
+.sect-buttons{
+    margin-bottom: 20px;
+}
+
+/*  fine commom styles */

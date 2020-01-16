@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <title>Boolean class#8 - copia sito teambit con sass e laravel-mix</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container clearfix">
+            <div id="logo"><a href="#"><img src="https://teambit.io/wp-content/themes/teambeat/img/logo.svg" alt="logo teambit"></a></div>
+            <div id="nav-menu-container" class="clearfix">
+                <ul class="inline-menu">
+                    <li id="dropdown-selector"><a href="#">Solution <i class="fas fa-caret-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="">Feed</a></li>
+                            <li><a href="">Survays</a></li>
+                            <li><a href="">Reviews</a></li>
+                            <li><a href="">Praise</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Sign in</a></li>
+                </ul>
+                <button class="header-button">Sign up</button>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="sect1">
+
+        <div class="container flex-row-centered">
+            <div class="sect1-left">
+                <h1>Understand, recognize and develop your people</h1>
+                <p>Teambit helps teams create a high performing culture with regular feedback.</p>
+                <div class="sect-buttons">
+                    <button class="base-button">Sign up with Google</button>
+                    <span>or</span>
+                    <button class="base-button">Sign up with Slack</button>
+                </div>
+                <a href="">or use you email address &#8594;</a>
+            </div>
+            <div class="sect1-right">
+                <img src="https://teambit.io/wp-content/themes/teambeat/img/illustration-main.jpg" alt="illustration-main">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="sect2">
+
+        <div class="container flex-column-centered">
+            <h2>Traditional people processes lead to disengagement and turnover.</h2>
+            <div class="sect2-three-images flex-row-centered">
+                <div class="sect2-card">
+                    <img src="https://teambit.io/wp-content/themes/teambeat/img/hardcore.png" alt="libri">
+                    <p>They don't make it safe to speak up</p>
+                </div>
+                <div class="sect2-card">
+                    <img src="https://teambit.io/wp-content/themes/teambeat/img/nofeedback.png" alt="orso">
+                    <p>They don't encourage regular feedback</p>
+                </div>
+                <div class="sect2-card">
+                    <img src="https://teambit.io/wp-content/themes/teambeat/img/notsafe.png" alt="gatto in gabbia">
+                    <p>They are hardcore, formal and disconnected</p>
+                </div>
+            </div>
+            <img src="https://teambit.io/wp-content/themes/teambeat/img/before.png" alt="coniglio">
+            <hr>
+            <h2>It doesn't have to be like that. Teambit is a modern solution that teammates love.</h2>
+            <div class="sect2-three-images flex-row-centered">
+                <div class="sect2-card">
+                    <img src="https://teambit.io/wp-content/themes/teambeat/img/lightweight.png" alt="coppa">
+                    <p>It creates a safe environment for dialog</p>
+                </div>
+                <div class="sect2-card">
+                    <img src="https://teambit.io/wp-content/themes/teambeat/img/feedbacksuggestions.png" alt="orso">
+                    <p>It encourages regular feedback with contextual requests</p>
+                </div>
+                <div class="sect2-card">
+                    <img src="https://teambit.io/wp-content/themes/teambeat/img/safe.png" alt="gatto">
+                    <p>It's lightweight fun and interconnected</p>
+                </div>
+            </div>
+            <img src="https://teambit.io/wp-content/themes/teambeat/img/after.png" alt="coniglio2">
+            <h2>Here is how it works</h2>
+        </div>
+
+    </section>
+
+    <section class="sect3">
+
+        <div class="sect3-line flex-row-centered">
+            <div class="sect3-block clearfix">
+                <div class="sect3-block-left">
+                    <img class="sect3-large-img" src="https://teambit.io/wp-content/themes/teambeat/img/employee-feedback.jpg" alt="employee">
+                </div>
+            </div>
+            <div class="sect3-block">
+                <div class="sect3-block-right sect3-small">
+                    <h3>Feedback to help teammates improve</h3>
+                    <p>Empower your teammates to know in real time what they are doing well and what they need to improve.</p>
+                    <p><a href="">Learn more &#8594;</a></p>
+                    <img class="sect3-small-img" src="https://teambit.io/wp-content/themes/teambeat/img/communication.jpg" alt="communication">
+                </div>
+            </div>
+        </div>
+
+        <div class="sect3-line flex-row-centered">
+            <div class="sect3-block clearfix">
+                <div class="sect3-block-left sect3-small">
+                    <h3>Surveys to help the team be better</h3>
+                    <p>Get real-time insights into your team with research-backed, lightweight and regular surveys.</p>
+                    <p><a href="">Learn more &#8594;</a></p>
+                    <img class="sect3-small-img" src="https://teambit.io/wp-content/themes/teambeat/img/insights.jpg" alt="">
+                </div>
+            </div>
+            <div class="sect3-block">
+                <div class="sect3-block-right">
+                    <img class="sect3-large-img" src="https://teambit.io/wp-content/themes/teambeat/img/employee-survey.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="sect3-line flex-row-centered">
+            <div class="sect3-block clearfix">
+                <div class="sect3-block-left">
+                    <img class="sect3-large-img" src="https://teambit.io/wp-content/themes/teambeat/img/performance-review.jpg" alt="">
+                </div>
+            </div>
+            <div class="sect3-block">
+                <div class="sect3-block-right sect3-small">
+                    <h3>Reviews to help teammates get a fair evaluation</h3>
+                    <p>Make better compensation and promotion decisions with objective and quick performance reviews.</p>
+                    <p><a href="">Learn more &#8594;</a></p>
+                    <img class="sect3-small-img" src="https://teambit.io/wp-content/themes/teambeat/img/review.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="sect3-line flex-row-centered">
+            <div class="sect3-block clearfix">
+                <div class="sect3-block-left sect3-small">
+                    <h3>Praise to help teammates feel valued</h3>
+                    <p>Make it a habit to recognize and praise people who do great work.</p>
+                    <p><a href="">Learn more &#8594;</a></p>
+                    <img class="sect3-small-img" src="https://teambit.io/wp-content/themes/teambeat/img/recognition.jpg" alt="">
+                </div>
+            </div>
+            <div class="sect3-block">
+                <div class="sect3-block-right">
+                    <img class="sect3-large-img" src="https://teambit.io/wp-content/themes/teambeat/img/employee-recognition.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="sect4">
+
+        <div class="container">
+
+            <h2>See Teambit for yourself.Get started in seconds
+                <img src="https://teambit.io/wp-content/themes/teambeat/img/happy.svg" alt="happy">
+            </h2>
+            <div id="sect4-text">
+                <p>We are experiencing what Gallup calls 'an employee engagement crisis'. Just one-third of people at work are engaged.
+                    <br><br>
+                    To improve performance and engagement companies rely on the same principles as industrial-age factories. But all those annual performance reviews and hundred-question surveys don't work anymore. People want regular feedback.
+                    Leaders
+                    who don't embrace this change end up with misaligned, disengaged and dwindling team.
+                    <br><br>
+                    We designed Teambit to change that. It empowers teams to make feedback a daily habit. Everybody knows what they are doing well and what they need to improve, leading to better performing, engaged and happier teams.
+                    <br><br>
+                    We are on a mission to make worklife exciting. Come join us.
+                    <br><br>
+                </p>
+                <img src="https://teambit.io/wp-content/themes/teambeat/img/alex.png" alt="alex">
+                <img src="https://teambit.io/wp-content/themes/teambeat/img/bohdan.png" alt="bohdan">
+                <div id="sect4-signature">
+                    <span>Alex and Bohdan</span><br>
+                    <small>Co-Founders at Teambit</small>
+                </div>
+            </div>
+            <div id="sect4-buttons">
+                <div class="sect-buttons">
+                    <button class="base-button">Sign up with Google</button>
+                    <span>or</span>
+                    <button class="base-button">Sign up with Slack</button>
+                </div>
+                <a href="">or use you email address &#8594;</a>
+            </div>
+
+            <!-- https://teambit.io/wp-content/themes/teambeat/img/landing/quote.svg -->
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container flex-column-between">
+            <div id="footer-text" class=" clearfix">
+                <img src="https://teambit.io/wp-content/themes/teambeat/img/logo-small.svg" alt="teambit">
+                <h4><a href="#">Teambit</a> helps teams create high performing cultures by making feedback a daily habit.</h4>
+            </div>
+            <div class="footer-list">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Surveys</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">Praise</a></li>
+                    <li><a href="#">Slack Integration</a></li>
+                    <li><a href="#">Schedule a demo</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="footer-list">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Terms and privacy</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Digest</a></li>
+                </ul>
+            </div>
+            <div class="footer-list">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                </ul>
+            </div>
+            <div class="footer-list">
+                <h4>Labs</h4>
+                <ul>
+                    <li><a href="#">Manager checklist</a></li>
+                    <li><a href="#">Manager assessment</a></li>
+                    <li><a href="#">Manager handbook</a></li>
+                </ul>
+            </div>
+            <div class="footer-list">
+                <h4>From the blog</h4>
+                <ul>
+                    <li><a href="#">How to change your company culture: a four-step framework</a></li>
+                    <li><a href="#">How teams can be more productive by killing 8-hour workday</a></li>
+                    <li><a href="#">How to build high performing teams inspired by nature</a></li>
+                    <li><a href="#">View all &#8594;</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script id="template-NAME" type="text/x-handlebars-template"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="main.js"></script> -->
+</body>
+
+</html>
